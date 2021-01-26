@@ -1,0 +1,7 @@
+<h1>Home#index</h1>
+<ul>
+  <%- @books.each do |book| -%>
+    <li>Titre: <%= book.title || "(aucun)" -%>, Auteur: <%= book.author || "(aucun)" -%>, Année de Publication : <%= book.publication_year || "(aucun)" -%></li>
+    <button data-reflex="click->ExampleReflex#toggle" data-id= <%= book.id -%> >Click me</button>
+  <%- end -%>
+</ul>
