@@ -4,6 +4,7 @@
 // that code so it'll be compiled.
 
 import Rails from "@rails/ujs"
+require("css/application.scss")
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
@@ -13,3 +14,4 @@ Turbolinks.start()
 ActiveStorage.start()
 
 import "controllers"
+
