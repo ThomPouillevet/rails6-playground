@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* for easy rem sizing: 1rem = 10px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #071f32;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+}
